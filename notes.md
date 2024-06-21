@@ -8,7 +8,7 @@ First, we have a block defining metavariables (lhs) and term constructors (rhs).
         X ::= A() | B() | C()
         t ::= var(x⁺) | λ(x⁺, t⁺) | @(t⁺ , t⁺) | :(t⁺, T⁺)
         T ::= Var(X⁺) | ->(T⁺, T⁺)
-        Γ ::= ·() | cons⇒(x⁺, T⁺, Γ⁺) | cons⇐(x⁻, T⁻, Γ⁺)
+        Γ ::= ·() | cons⇒(x⁺, T⁺, Γ⁺) | cons⇐(x⁺, T⁻, Γ⁺)
 ```
 
 In general, a definition of a metavariable `M` has the following form
